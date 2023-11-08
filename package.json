@@ -1,0 +1,19 @@
+{
+  "name": "correcao-biblioteca",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && node ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.6"
+  },
+  "dependencies": {
+    "mariadb": "^3.2.2",
+    "readline-sync": "^1.4.10"
+  }
+}
